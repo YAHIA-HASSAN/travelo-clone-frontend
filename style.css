@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    background: #fff;
+}
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+ nav img{
+    width: 150px;
+}
+
+header ul{
+    padding-left: 20px;
+    list-style: none;
+    display: inherit;
+}
+header li{
+    width: 100px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+nav a:hover {
+    text-decoration: none;
+    color: rgb(43, 174, 154);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.nav-part1{
+    width: 15%;
+    margin: 2.5%;
+    padding-right:50px ;
+    height: 50px;
+}
+.nav-part2{
+    width: 65%;
+    border-left: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0; 
+    padding-right: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-part3{
+    width: 15%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-red-button{
+    width: 42%;
+    padding: 10px;
+    background-color:#ff4a52;
+    text-align: center;
+    border-radius: 5px;
+}
+.nav-red-button a{
+    color: white;
+}
+.nav-red-button a:hover {
+    color: white;
+}
+.nav-red-button:hover{
+  background-color:#1ec6b6;
+ }
+.fa-phone{
+ color :#ff4a52;
+ padding: 3px;
+}
+.toggle{
+    display: none;
+    font-size: larger;
+    height: 80px;
+    align-items: center;
+}
+
+#toggled-menu{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: #4c4c4c;
+    width: 50%;
+    height: 35%;
+    position: fixed;
+    left: 50%;
+}
+.fa-bars{
+    color: white;
+}
+.toggled-menu-list{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+.toggled-menu-item{
+    width: 90%;
+    height: 20%;
+    border-radius: 5px;
+}
+.toggled-menu-item a{
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toggled-menu-item a:hover{
+    color: #4c4c4c;
+}
+.toggled-menu-item:hover{
+    background: gainsboro;
+}
+
+@media screen and (max-width: 1080px) {
+    nav{
+       justify-content: space-between;
+    }
+    .toggle{
+        display: flex;
+        padding-left: 50px;
+        padding-right: 50px;
+        background: #4c4c4c;
+    }
+    .nav-part2{
+        display: none;
+    }
+    .nav-part3{
+        display: none;
+    }
+}
