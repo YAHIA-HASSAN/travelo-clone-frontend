@@ -1,3 +1,5 @@
+// nav bar
+
 let menuOpenFlage =false;
 function displayToggledMenu(){
     let element = document.getElementById('toggled-menu');
@@ -10,3 +12,14 @@ function displayToggledMenu(){
         menuOpenFlage = false;
     }
 }
+
+
+
+
+
+/***********************************************************************/
+
+
+
+
+

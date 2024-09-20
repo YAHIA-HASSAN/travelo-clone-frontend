@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travelo</title>
+
+    <!-- Required links for CSS and font awesome CDN -->
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="fevion/icon" href="./img/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -13,6 +15,7 @@
 </head>
 
 <body>
+    <!-- Header with nav bar done  -->
     <header>
         <nav>
             <div class="nav-part1">
@@ -38,7 +41,7 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
-                <div>
+                <div class="nav-phone-nomber">
                     <i class="fa-solid fa-phone"></i>
                     <span> 10(256)-928 256</span>
                 </div>
@@ -48,52 +51,63 @@
                 <div class="nav-red-button">
                     <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
-               <div class="nav-red-button">
-                <a href="login.html">Login</a>
-               </div>
-               
+                <div class="nav-red-button">
+                    <a href="login.html">Login</a>
+                </div>
+
             </div>
 
             <div class="toggle" onclick="displayToggledMenu()">
                 <i class="fa-solid fa-bars"></i>
-                
+
             </div>
-            
+
         </nav>
         <div id="toggled-menu">
-                    <ul class="toggled-menu-list">
-                        <li class="toggled-menu-item">
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="toggled-menu-item">
-                            <a href="#">About</a>
-                        </li>
-                        <li class="toggled-menu-item">
-                            <a href="#">Destination</a>
-                        </li>
-                        <li class="toggled-menu-item">
-                            <a href="#">Feedback</a>
-                        </li>
-                        <li class="toggled-menu-item">
-                            <a href="#">Contact</a>
-                        </li>
-                        <li class="toggled-menu-item" id="toggled-menu-item-login">
-                            <a href="#">Login</a>
-                        </li>
-                    </ul>
-                </div>
+            <ul class="toggled-menu-list">
+                <li class="toggled-menu-item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="#">About</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="#">Destination</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="#">Feedback</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="#">Contact</a>
+                </li>
+                <li class="toggled-menu-item" id="toggled-menu-item-login">
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </div>
     </header>
 
-<main>
-   
-</main>
+    <!-- Main Part of the bage < Login - Part >  -->
+    <main>
+        <form action="./ueserProfile.html" method="post" id="login-form">
+           <div> <input type="text" for="email" placeholder="name@example.com">
+            <input type="password" for="password" placeholder="Password">
+        </div>
+        <div class="buttons">
+            <input type="submit" value="Login">
+            <input type="button" value="Sign Up">
+        </div>
+        </form>
 
+    </main>
 
+<!-- 
 
-<footer>
+    <footer>
 
-</footer>
+    </footer> -->
 
 </body>
 <script src="main.js"></script>
+
 </html>
