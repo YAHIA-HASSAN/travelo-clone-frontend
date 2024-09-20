@@ -1,4 +1,4 @@
-// nav bar
+// nav bar script  for apparing and disapparing the menu toggle
 
 let menuOpenFlage =false;
 function displayToggledMenu(){
@@ -12,14 +12,3 @@ function displayToggledMenu(){
         menuOpenFlage = false;
     }
 }
-
-
-
-
-
-/***********************************************************************/
-
-
-
-
-
