@@ -88,27 +88,24 @@
         </div>
     </header>
 
-    <!-- Main Part of the bage < Login - Part >  -->
+    <!-- Main Part of the page < Login - Part >  -->
     <main>
-        <form action="./userProfile.html" method="post" id="login-form">
-           <div> <input type="text" for="email" placeholder="name@example.com">
-            <input type="password" for="password" placeholder="Password">
-        </div>
-        <div class="buttons">
-            <input type="submit" value="Login">
-            <input type="button" value="Sign Up">
-        </div>
+        <form name="login-form" action="./userProfile.html" method="get" id="login-form">
+            <div>
+                <input type="email" name="email" placeholder="name@example.com" required>
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="buttons">
+                <input type="submit" value="Login">
+                <input type="button" value="Sign Up">
+            </div>
         </form>
-
     </main>
 
-<!-- 
 
-    <footer>
-
-    </footer> -->
 
 </body>
 <script src="navScript.js"></script>
 <script src="loginScript.js"></script>
+
 </html>
