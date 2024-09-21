@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +8,7 @@
     <title>Travelo</title>
 
     <!-- Required links for CSS and font awesome CDN -->
-    <link rel="stylesheet" href="loginStyle.css">
+    <link rel="stylesheet" href="signUpStyle.css">
     <link rel="stylesheet" href="navStyle.css">
     <link rel="icon" type="fevion/icon" href="./img/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -88,16 +89,20 @@
         </div>
     </header>
 
-    <!-- Main Part of the page < Login - Part >  -->
+    <!-- Main Part of the page < Sing Up - Part >  -->
     <main>
-        <form name="login-form" action="./userProfile.html" method="get" id="login-form">
+        <form name="signUp-form" action="./userProfile.html" method="get" id="signUp-form">
             <div>
-                <input type="email" name="email" placeholder="name@example.com" required>
+                <input type="text" name="fname" placeholder="First name" required>
+                <input type="text" name="lname" placeholder="Last name" required>
+                <input type="text" name="phoneNo" placeholder="Phone: 01xxxxxxxxx" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="email" name="confirm-email" placeholder="Confirm E-mail" required>
                 <input type="password" name="password" placeholder="Password" required>
+                <input type="password" name="confirm-password" placeholder="Confirm Password" required>
             </div>
             <div class="buttons">
-                <input type="submit" value="Login">
-                <input type="button" value="Sign Up" onclick="window.location.href='signUp.html'">
+                <input type="submit" value="Register">
             </div>
         </form>
     </main>
@@ -106,6 +111,6 @@
 
 </body>
 <script src="navScript.js"></script>
-<script src="loginScript.js"></script>
+<script src="signUpScript.js"></script>
 
 </html>

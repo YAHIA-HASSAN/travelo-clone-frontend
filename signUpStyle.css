@@ -1,0 +1,47 @@
+/* Sign Up form  */
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:fit-content;
+    background: linear-gradient(#fff,#ddecfb,#39485d)  ;
+}
+#signUp-form{
+    margin: 10%;
+    width: 60%;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ff4a52;
+    border-radius: 10px;
+    box-shadow: 1px 1px 23px #ff4a52  ;
+    background: #f7fafd;
+}
+#signUp-form div{
+    height: 78%;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   margin: 4%;
+   /* background: #000; */
+}
+#signUp-form input{
+    width: 90%;
+    height: 10%;
+    padding: 4%;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+#signUp-form .buttons input{
+    background: #ff4a52;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    height: fit-content;
+}
