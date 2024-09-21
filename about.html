@@ -14,11 +14,87 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="about.css">
+
+    <!-- Required links for Nav Style -->
+    <link rel="stylesheet" href="navStyle.css">
+    <link rel="icon" type="fevion/icon" href="./img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <nav class="navbar">
-    </nav>
+    <!-- Header with nav bar done  -->
+    <header>
+        <nav>
+            <div class="nav-part1">
+                <img src="./img/logo.png" alt="logo" />
+            </div>
+
+
+            <div class="nav-part2">
+                <ul>
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="destination.html">Destination</a>
+                    </li>
+                    <li>
+                        <a href="feedback.html">Feedback</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-phone-nomber">
+                    <i class="fa-solid fa-phone"></i>
+                    <span> 10(256)-928 256</span>
+                </div>
+            </div>
+
+            <div class="nav-part3">
+                <div class="nav-red-button">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div class="nav-red-button">
+                    <a href="login.html">Login</a>
+                </div>
+
+            </div>
+
+            <div class="toggle" onclick="displayToggledMenu()">
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+        </nav>
+        <div id="toggled-menu">
+            <ul class="toggled-menu-list">
+                <li class="toggled-menu-item">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="destination.html">Destination</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="feedback.html">Feedback</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="toggled-menu-item" id="toggled-menu-item-login">
+                    <a href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </header>
 
     <section class="photo">
         <div class="overlay"></div>
@@ -32,7 +108,7 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
     <section class="about_story">
         <div class="container">
@@ -64,10 +140,10 @@
                     <div class="story_album mt-5">
                         <div class="row m-5">
                             <div class="col-md-6 mb-3">
-                                <img src="img/1.png" >
+                                <img src="img/1.png">
                             </div>
                             <div class="col-md-6 mb-3 ">
-                                <img src="img/2.png" >
+                                <img src="img/2.png">
                             </div>
                         </div>
                     </div>
@@ -138,7 +214,7 @@
                     <div class="img my-5">
                         <img src="img/hotel.png">
                     </div>
-                    <h4>Luxurious Hotel</h4> 
+                    <h4>Luxurious Hotel</h4>
                     <p>A wonderful serenity has taken to the possession of my entire soul.</p>
                 </div>
                 <div class="feature col-lg-4 col-md-6 my-5 text-center p-4">
@@ -152,7 +228,10 @@
         </div>
     </section>
 
-    <script src="about.js"></script>
 </body>
+<script src="about.js"></script>
+
+<!-- Nav Script -->
+<script src="navScript.js"></script>
 
 </html>
