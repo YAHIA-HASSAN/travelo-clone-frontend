@@ -7,16 +7,18 @@
     width: 100%;
     height: 100%;
 }
+body{
+    background: linear-gradient(#fff,#ddecfb,#39485d) ;
+}
 main{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 90%;
-    background: linear-gradient(#fff,#ddecfb,#39485d)  ;
 }
 #login-form{
-    width: 50%;
-    height: 70%;
+    width: 30%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -34,10 +36,22 @@ main{
    align-items: center;
 }
 #login-form input{
-    width: 90%;
-    height: 40%;
+    width: 70%;
+    height: 30%;
     padding: 4%;
-    border-radius: 5px;
+    margin: 2%;
+    background: #f7fafd;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+#login-form h1{
+    text-align: center;
+    height: 15%;
+}
+.logo-img{
+    width: 40%;
+    height: 30%;
 }
 
 #login-form .buttons input{
@@ -45,5 +59,12 @@ main{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
+    border:none;
+    border-radius: 25px;
+}
 
+@media screen and (max-width: 1080px) {
+    #login-form{
+        width: 50%;
+    }
 }
