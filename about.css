@@ -6,9 +6,6 @@ html {
     width: 100%;
 }
 
-.navbar {
-    z-index: 10;
-}
 
 .photo {
     position: relative;
