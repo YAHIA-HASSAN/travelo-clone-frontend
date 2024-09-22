@@ -1,0 +1,58 @@
+/* popular-places */
+.popular-destination-continer h2{
+    text-align: center;
+    margin-top: 60px;
+}
+.poular-places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 800px;
+    align-content: stretch;
+    align-items:center ;
+}
+
+.poular-places .picture {
+    
+    flex-shrink: 0 ;
+    width: 25vw;
+    min-width: 200px;
+    height: 300px;
+    transition: 0.5s ;
+    position: relative;
+}
+.poular-places .picture img {
+    min-width: 200px;
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+    box-shadow: 0px 20px 20px 3px rgb(0 0 0);
+}
+.picture:hover .place-name {
+    color: #07deff;
+}
+.picture:hover {
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+
+.poular-places .picture h3 {
+    position: absolute;
+    color: #555;
+    font-size: 1.2em;
+    transition: 0.5s ;
+    bottom: 0px;
+    left: 10px;
+}
+@media screen and (max-width: 700px) {
+    .poular-places {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: .2%;
+        height: 2400px;
+    }
+    .poular-places .picture {
+        width:inherit;
+    }
+}

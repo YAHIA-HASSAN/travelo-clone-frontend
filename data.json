@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "city": "Paris",
+        "country": "France",
+        "dateOfTravel": "15-10-2024",
+        "travelMethod": "Flight",
+        "price": 1500,
+        "hotelDetails": {
+            "hotelName": "Hotel de Paris",
+            "rating": 5,
+            "amenities": ["Free WiFi", "Spa", "Breakfast included"]
+        },
+        "photoURL": "./img/paris.jpg"
+    },
+    {
+        "id": 2,
+        "city": "Tokyo",
+        "country": "Japan",
+        "dateOfTravel": "05-11-2024",
+        "travelMethod": "Flight",
+        "price": 2000,
+        "hotelDetails": {
+            "hotelName": "Tokyo Grand Hotel",
+            "rating": 4,
+            "amenities": ["Free WiFi", "City View", "24-hour Gym"]
+        },
+        "photoURL": "./img/Tokyo.jpg"
+    },
+    {
+        "id": 3,
+        "city": "Sydney",
+        "country": "Australia",
+        "dateOfTravel": "10-12-2024",
+        "travelMethod": "Flight",
+        "price": 1800,
+        "hotelDetails": {
+            "hotelName": "Sydney Harbour Hotel",
+            "rating": 4,
+            "amenities": ["Pool", "Harbour View", "Bar"]
+        },
+        "photoURL": "./img/Sydney.jpg"
+    },
+    {
+        "id": 4,
+        "city": "New York City",
+        "country": "USA",
+        "dateOfTravel": "28-09-2024",
+        "travelMethod": "Flight",
+        "price": 1600,
+        "hotelDetails": {
+            "hotelName": "Times Square Hotel",
+            "rating": 5,
+            "amenities": ["Rooftop Bar", "Free Breakfast", "Gym"]
+        },
+        "photoURL": "./img/New_York_City.jpg"
+    },
+    {
+        "id": 5,
+        "city": "Cairo",
+        "country": "Egypt",
+        "dateOfTravel": "20-10-2024",
+        "travelMethod": "Flight",
+        "price": 1200,
+        "hotelDetails": {
+            "hotelName": "Pyramids View Inn",
+            "rating": 3,
+            "amenities": ["Free Parking", "Pyramids View", "Guided Tours"]
+        },
+        "photoURL": "./img/Cairo.jpg"
+    },
+    {
+        "id": 6,
+        "city": "Cape Town",
+        "country": "South Africa",
+        "dateOfTravel": "15-11-2024",
+        "travelMethod": "Flight",
+        "price": 1700,
+        "hotelDetails": {
+            "hotelName": "Cape Grace Hotel",
+            "rating": 5,
+            "amenities": ["Free WiFi", "Ocean View", "Airport Shuttle"]
+        },
+        "photoURL": "./img/Cape_Town.jpg"
+    },
+    {
+        "id": 7,
+        "city": "Rome",
+        "country": "Italy",
+        "dateOfTravel": "05-10-2024",
+        "travelMethod": "Flight",
+        "price": 1300,
+        "hotelDetails": {
+            "hotelName": "Hotel Roma",
+            "rating": 4,
+            "amenities": ["Free Breakfast", "Central Location", "Spa"]
+        },
+        "photoURL": "./img/Rome.jpg"
+    },
+    {
+        "id": 8,
+        "city": "London",
+        "country": "UK",
+        "dateOfTravel": "22-12-2024",
+        "travelMethod": "Flight",
+        "price": 1400,
+        "hotelDetails": {
+            "hotelName": "The Londoner",
+            "rating": 5,
+            "amenities": ["Free WiFi", "Rooftop Pool", "Gym"]
+        },
+        "photoURL": "./img/London.jpg"
+    },
+    {
+        "id": 9,
+        "city": "Bangkok",
+        "country": "Thailand",
+        "dateOfTravel": "01-11-2024",
+        "travelMethod": "Flight",
+        "price": 1100,
+        "hotelDetails": {
+            "hotelName": "Bangkok Palace Hotel",
+            "rating": 4,
+            "amenities": ["Free WiFi", "Pool", "Close to Shopping"]
+        },
+        "photoURL": "./img/Bangkok.jpg"
+    },
+    {
+        "id": 10,
+        "city": "Rio de Janeiro",
+        "country": "Brazil",
+        "dateOfTravel": "08-12-2024",
+        "travelMethod": "Flight",
+        "price": 1900,
+        "hotelDetails": {
+            "hotelName": "Copacabana Palace",
+            "rating": 5,
+            "amenities": ["Beach Access", "Free Breakfast", "Spa"]
+        },
+        "photoURL": "./img/Rio_de_Janeiro.jpg"
+    }
+]

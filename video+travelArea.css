@@ -1,0 +1,43 @@
+
+.video_area{
+    background-image: url('img/28105704.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video_area h3{
+    font-size: 5vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(156, 78, 5, 0.644);
+}
+.video_area .video_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.travel_area{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.travel_area .feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.travel_area .feature .img img {
+    width: 70px; 
+    height: auto; 
+    display: block; 
+    
+    
+}
