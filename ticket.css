@@ -1,0 +1,84 @@
+.ticket{
+    width: 70vw;
+    height: 30vh;
+    min-height: 200px;
+    background: #fff;
+    margin-bottom: 5%;
+    border: 1px dashed #bebebe;
+    border-radius: 3px;
+    display: flex;
+}
+
+.ticket-left-part{
+    height: 30vh;
+    width: 50vw;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right: 3px dashed #bebebe;
+    padding: 1%;
+
+}
+.ticket-right-part{
+    height: 30vh;
+    width: 20vw;
+    background: rgba(255, 255, 0, 0.426);
+    padding: 1%;
+}
+.ticket-header{
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ticket-header img{
+    width: 50%;
+    padding: 1vh;
+}
+.ticket-header h4{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 100;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.ticket-right-part >.ticket-header > h4{
+    font-size: .5rem;
+}
+
+.right-ticket-info{
+    height: 23vh;
+    text-align: start;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; */
+}
+.left-ticket-info{
+    height: 23vh;
+    text-align: start;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; */
+}
+table{
+    height: 15vh;
+    text-align: center;
+}
+tr{
+    height: 2vh;
+    font-size: small;
+}
+td{
+    width: 50%;
+}
+.barcode{
+    height: 8vh;
+}
+
+
+

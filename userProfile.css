@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    min-height: 80%;
+    height: fit-content;
+}
+#user-info{
+    min-height: 80px;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 5% 0;
+}
+#user-info > div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#user-info-div p{
+    text-align: center;
+    width: fit-content;
+    height: 20%;
+    padding-left: 5%;
+}
+#user-info img{
+    min-width: 50px;
+    min-height: 50px;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+}
+.red-button{
+    width: fit-content;
+    min-height: 45px;
+    height: 6vh;
+    padding: 10px;
+    background-color:#ff4a52;
+    text-align: center;
+    border-radius: 5px;
+}
+.red-button a{
+    color: white;
+}
+.red-button a:hover {
+    color: white;
+}
+.red-button:hover{
+  background-color:#1ec6b6;
+ }
+
+ hr{
+    margin: 2%;
+    width: 50%;
+    height: 0%;
+    position: relative;
+    left: 25%;
+ }
+
+ #Tickets-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+ }
+
+ section h2{
+    width: 100%;
+    height: 15%;    
+    padding: 5%;
+    font-weight: 400;
+ }

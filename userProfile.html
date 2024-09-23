@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travelo</title>
 
-    <!-- Required links for CSS and font awesome CDN -->
-    <link rel="stylesheet" href="style.css">
+
+    <!--  Required links for CSS -->
+    <link rel="stylesheet" href="userProfile.css">
+    <link rel="stylesheet" href="ticket.css">
+    <!-- Required links for Nav Style -->
     <link rel="stylesheet" href="navStyle.css">
     <link rel="icon" type="fevion/icon" href="./img/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-     <!-- Header with nav bar done  -->
-     <header>
+    <!-- Header with nav bar done  -->
+    <header>
         <nav>
             <div class="nav-part1">
                 <img src="./img/logo.png" alt="logo" />
@@ -23,30 +28,30 @@
 
 
             <div class="nav-part2">
-                <ul>
+                <ul id="nav-list">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="home.html">Home</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="#">Destination</a>
+                        <a href="destination.html">Destination</a>
                     </li>
                     <li>
-                        <a href="#">Feedback</a>
+                        <a href="feedback.html">Feedback</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
-                <div class="nav-phone-nomber">
+                <div class="nav-phone-number">
                     <i class="fa-solid fa-phone"></i>
                     <span> 10(256)-928 256</span>
                 </div>
             </div>
 
-            <div class="nav-part3">
+            <div class="nav-part3" id="nav-part3">
                 <div class="nav-red-button">
                     <a href="./home.html#search-section"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
@@ -65,28 +70,50 @@
         <div id="toggled-menu">
             <ul class="toggled-menu-list">
                 <li class="toggled-menu-item">
-                    <a href="#">Home</a>
+                    <a href="home.html">Home</a>
                 </li>
                 <li class="toggled-menu-item">
-                    <a href="#">About</a>
+                    <a href="about.html">About</a>
                 </li>
                 <li class="toggled-menu-item">
-                    <a href="#">Destination</a>
+                    <a href="destination.html">Destination</a>
                 </li>
                 <li class="toggled-menu-item">
-                    <a href="#">Feedback</a>
+                    <a href="feedback.html">Feedback</a>
                 </li>
                 <li class="toggled-menu-item">
-                    <a href="#">Contact</a>
+                    <a href="contact.html">Contact</a>
                 </li>
                 <li class="toggled-menu-item" id="toggled-menu-item-login">
-                    <a href="#">Login</a>
+                    <a href="login.html">Login</a>
                 </li>
             </ul>
         </div>
     </header>
 
+    <main>
+        <section id="user-info">
+            <div id="user-info-div">
+                <img src="./img/user-img.png" alt="user image">
+                <p>Hi, <span id="user-name"></span></p>
+            </div>
+            <div>
+                <div class="red-button">
+                    <a onclick="logout()">Log out</a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="Tickets-section">
+            <h2>Your Tickets</h2>
+            
+        </section>
+
+    </main>
+
 
 </body>
 <script src="navScript.js"></script>
+<script src="userProfileScript.js"></script>
+
 </html>

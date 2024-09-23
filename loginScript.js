@@ -34,7 +34,8 @@ function loginValidation() {
         alert('Wrong Password :(');
         return false;
     }
-
+    sessionStorage.setItem("login",true);
+    sessionStorage.setItem("user-name", userData["fName"]);
     alert('Login successful!');
     return true;
 }
