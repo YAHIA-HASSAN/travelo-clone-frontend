@@ -29,12 +29,13 @@
 .ticket-header{
     height: 5vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .ticket-header img{
-    width: 50%;
+    width: 30%;
     padding: 1vh;
+   
 }
 .ticket-header h4{
    display: flex;
@@ -43,6 +44,7 @@
    font-weight: 100;
    text-align: center;
    text-transform: uppercase;
+   width: 40%;
 }
 
 .ticket-right-part >.ticket-header > h4{
@@ -80,5 +82,7 @@ td{
     height: 8vh;
 }
 
-
+.left-ticket-info .barcode{
+    width:50%   ;
+}
 
