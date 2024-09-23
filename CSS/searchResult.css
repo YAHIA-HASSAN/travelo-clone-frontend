@@ -1,0 +1,85 @@
+.search-result-continer {
+    margin: 4vw 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+.travel-card {
+    background-color: floralwhite;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: none; 
+    max-width: 300px;
+    transition: all 0.3s ease-in-out; 
+}
+.card-img {
+    position: relative;
+}
+
+.card-img img {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.price-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f04a4a;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; 
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #f04a4a;
+    transition: color 0.3s ease-in-out; 
+}
+
+.card-location {
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+.card-rating {
+    margin-top: 10px;
+}
+
+.stars {
+    color: #fbc02d;
+    font-size: 14px;
+}
+
+.card-footer {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+.card-footer i {
+    margin-right: 5px;
+}
+
+/* Hover effects */
+.travel-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
+    transform: translateY(-10px); 
+}
+
+.travel-card:hover .price-tag {
+    background-color: blue; 
+}
+
+.travel-card:hover .card-title {
+    color: blue; 
+}

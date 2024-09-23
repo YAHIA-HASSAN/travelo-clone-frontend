@@ -1,0 +1,113 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.photo {
+    position: relative;
+    background-image: url('../img/24c9167c6fda797eeb0f750581b038fe (1).jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.photo_text {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.photo_text h3 {
+    font-size: 5vw;
+    margin-bottom: 20px;
+}
+.about_story{
+    margin: 5rem 0;
+}
+
+.about_story .counter {
+    display: flex;
+    justify-content: center;
+}
+
+.about_story .counter .stat {
+    text-align: center;
+    width: 100%;
+}
+
+.about_story .counter .stat h3 {
+    font-size: 4rem;
+    color: rgba(255, 0, 0, 0.799);
+}
+
+.story_album img {
+    width: 100%;
+    height: 28vw;
+}
+
+
+.video_area{
+    background-image: url('../img/28105704.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video_area h3{
+    font-size: 5vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(156, 78, 5, 0.644);
+}
+.video_area .video_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.travel_area{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.travel_area .feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.travel_area .feature .img img {
+    width: 70px; 
+    height: auto; 
+    display: block; 
+    
+    
+}

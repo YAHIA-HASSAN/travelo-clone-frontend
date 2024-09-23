@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travelo</title>
 
-    <!-- Required links for CSS and font awesome CDN -->
-    <link rel="stylesheet" href="signUpStyle.css">
 
+    <!--  Required links for CSS -->
+    <link rel="stylesheet" href="../CSS/userProfile.css">
+    <link rel="stylesheet" href="../CSS/ticket.css">
     <!-- Required links for Nav Style -->
-    <link rel="stylesheet" href="navStyle.css">
-    <link rel="icon" type="fevion/icon" href="./img/logo.png">
+    <link rel="stylesheet" href="../CSS/navStyle.css">
+    <link rel="icon" type="fevion/icon" href="../img/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,7 +23,7 @@
     <header>
         <nav>
             <div class="nav-part1">
-                <img src="./img/logo.png" alt="logo" />
+                <img src="../img/logo.png" alt="logo" />
             </div>
 
 
@@ -91,34 +91,29 @@
         </div>
     </header>
 
-    <!-- Main Part of the page < Sing Up - Part >  -->
     <main>
-        <form name="signUp-form" action="./userProfile.html" method="get" id="signUp-form">
-            <div>
-                <h1>Welcome</h1>
-                <img src="./img/logo.png" alt="logo" class="logo-img">
+        <section id="user-info">
+            <div id="user-info-div">
+                <img src="../img/user-img.png" alt="user image">
+                <p>Hi, <span id="user-name"></span></p>
             </div>
             <div>
-                <input type="text" name="fname" placeholder="First name" required>
-                <input type="text" name="lname" placeholder="Last name" required>
-                <input type="text" name="phoneNo" placeholder="Phone: 01xxxxxxxxx" required>
-                <input type="email" name="email" placeholder="E-mail" required>
-                <input type="email" name="confirm-email" placeholder="Confirm E-mail" required>
-                <input type="password" name="password" placeholder="Password" required>
-                <input type="password" name="confirm-password" placeholder="Confirm Password" required>
+                <div class="red-button">
+                    <a onclick="logout()">Log out</a>
+                </div>
             </div>
-            <div class="buttons">
-                <input type="submit" value="Register">
-            </div>
-        </form>
+        </section>
+        <hr>
+        <section id="Tickets-section">
+            <h2>Your Tickets</h2>
+            
+        </section>
+
     </main>
 
 
-
 </body>
+<script src="../JS/navScript.js"></script>
+<script src="../JS/userProfileScript.js"></script>
 
-<script src="signUpScript.js"></script>
-
-<!-- Nav Script -->
-<script src="navScript.js"></script>
 </html>

@@ -1,0 +1,243 @@
+<html>
+ <head>
+  <title>Destination Details</title>
+  <!-- Main style -->
+  <link rel="stylesheet" href="../CSS/styleDestinationDetails.css">
+  <!-- Other styles -->
+  <link rel="stylesheet" href="../CSS/PhotoStyle.css">
+  <link rel="stylesheet" href="../CSS/search.css">
+  <link rel="stylesheet" href="../CSS/searchResult.css">
+
+  <!-- Required links for Nav Style -->
+  <link rel="stylesheet" href="../CSS/navStyle.css">
+  <link rel="icon" type="fevion/icon" href="../img/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>
+ <body>
+    <!-- Header with nav bar done  -->
+    <header>
+        <nav>
+            <div class="nav-part1">
+                <img src="../img/logo.png" alt="logo" />
+            </div>
+            <div class="nav-part2">
+                <ul id="nav-list">
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="destination.html">Destination</a>
+                    </li>
+                    <li>
+                        <a href="feedback.html">Feedback</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-phone-number">
+                    <i class="fa-solid fa-phone"></i>
+                    <span> 10(256)-928 256</span>
+                </div>
+            </div>
+            <div class="nav-part3" id="nav-part3">
+                <div class="nav-red-button">
+                    <a href="./home.html#search-section"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div class="nav-red-button">
+                    <a href="login.html">Login</a>
+                </div>
+            </div>
+            <div class="toggle" onclick="displayToggledMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <div id="toggled-menu">
+            <ul class="toggled-menu-list">
+                <li class="toggled-menu-item">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="destination.html">Destination</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="feedback.html">Feedback</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="toggled-menu-item" id="toggled-menu-item-login">
+                    <a href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- content of destination info/details page-->
+  <div class="container">
+   <div class="section">
+    <h2>
+     Description
+    </h2>
+    <p>
+     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+    </p>
+    <p>
+     Various versions of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
+    </p>
+    <p>
+     <strong>
+      Day-01
+     </strong>
+     <br/>
+     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
+    </p>
+    <p>
+     <strong>
+      Day-02
+     </strong>
+     <br/>
+     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
+    </p>
+    <p>
+     <strong>
+      Day-03
+     </strong>
+     <br/>
+     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
+    </p>
+   </div>
+   <br>
+   <hr>
+   <br>
+
+   <!-- Contact Section -->
+   <div class="section">
+    <h2>
+     Contact for join
+    </h2>
+    <form>
+     <div class="form-row">
+      <div class="form-group">
+       <input placeholder="Your Name" type="text"/>
+      </div>
+      <div class="form-group">
+       <input placeholder="Phone no." type="text"/>
+      </div>
+     </div>
+     <div class="form-group">
+      <textarea placeholder="Message"></textarea>
+     </div>
+     <div class="form-group">
+      <button type="submit">
+       Submit
+      </button>
+     </div>
+    </form>
+   </div>
+  </div>
+
+  <!-- Subscribe section -->
+  <div class="newsletter">
+   <h2>
+    Subscribe Our Newsletter
+   </h2>
+   <p>
+    Subscribe newsletter to get offers and about new places to discover.
+   </p>
+   <div>
+    <input placeholder="Your mail" type="email"/>
+    <button>
+     Subscribe
+    </button>
+   </div>
+  </div>
+
+  <!-- More Places Section-->
+  <div class="places">
+   <h2>
+    More Places
+   </h2>
+   <div class="place">
+    <img alt="Image of California" height="400" src="../img/california-a.jpg" width="600"/>
+    <div class="details">
+     <div class="price">
+      $500
+     </div>
+     <div class="duration">
+      5 Days
+     </div>
+     <h3>
+      California
+     </h3>
+     <p>
+      United States of America
+     </p>
+     <div class="reviews">
+      <i class="fas fa-star">
+      </i>
+      4.5 (25 Reviews)
+     </div>
+    </div>
+   </div>
+   <div class="place">
+    <img alt="Image of Korola Megna" height="400" src="../img/Korola-Megna.jpg" width="600"/>
+    <div class="details">
+     <div class="price">
+      $500
+     </div>
+     <div class="duration">
+      5 Days
+     </div>
+     <h3>
+      Korola Megna
+     </h3>
+     <p>
+      United States of America
+     </p>
+     <div class="reviews">
+      <i class="fas fa-star">
+      </i>
+      4.5 (25 Reviews)
+     </div>
+    </div>
+   </div>
+   <div class="place">
+    <img alt="Image of London" height="400" src="../img/London.jpg" width="600"/>
+    <div class="details">
+     <div class="price">
+      $500
+     </div>
+     <div class="duration">
+      5 Days
+     </div>
+     <h3>
+      London
+     </h3>
+     <p>
+      United States of America
+     </p>
+     <div class="reviews">
+      <i class="fas fa-star">
+      </i>
+      4.5 (25 Reviews)
+     </div>
+    </div>
+   </div>
+  </div>
+
+  <!-- Search Script -->
+  <script src="../JS/search.js"></script>
+
+  <!-- Nav Script -->
+  <script src="../JS/navScript.js"></script>
+ </body>
+</html>

@@ -23,14 +23,14 @@ function logout(){
     document.location.href = "./home.html"
 }
 
-readTextFile("userTickets.json", function(text) {
+readTextFile("../Data/userTickets.json", function(text) {
     userTickets = JSON.parse(text);
     for(let i of userTickets){
         ticketsEle.innerHTML += `
             <div class="ticket">
                     <section class="ticket-left-part">
                         <div class="ticket-header">
-                            <img src="img/logo.png" alt="logo">
+                            <img src="../img/logo.png" alt="logo">
                             <h4 class="ticket-class">${i.TicketClass}</h3>
                         </div>
                         <div class="left-ticket-info">
@@ -53,7 +53,7 @@ readTextFile("userTickets.json", function(text) {
                     </section>
                     <section class="ticket-right-part">
                         <div class="ticket-header">
-                            <img src="img/logo.png" alt="logo">
+                            <img src="../img/logo.png" alt="logo">
                             <h4 class="ticket-class">${i.TicketClass}</h3>
                         </div>
                         <div class="right-ticket-info">

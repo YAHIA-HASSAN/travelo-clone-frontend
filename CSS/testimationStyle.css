@@ -1,0 +1,57 @@
+.testimonial-section {
+    background-color: #f4f4f4;
+    margin: 30px 0;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.testimonial-section h2 {
+    font-size: 2.5em;
+    margin: 20px 0 ;
+}
+
+/* Testimonial card */
+.testimonial {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 2vw;
+    transition: opacity 1s ease-in-out;
+}
+
+.testimonial-container {
+    position: relative;
+    height: 330px; 
+    display: flex;
+    justify-content: center;
+}
+.testimonial.active {
+    opacity: 1;
+}
+
+/* Client photo */
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Client name */
+.testimonial h3 {
+    margin: 10px 0 5px;
+    font-size: 2em;
+}
+
+/* Client review */
+.testimonial p {
+    font-size: 1.4em;
+    color: #555;
+}

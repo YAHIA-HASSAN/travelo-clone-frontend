@@ -13,7 +13,7 @@ function readTextFile(file, callback) {
     rawFile.send(null);
 }
 
-readTextFile("userData.json", function(text) {
+readTextFile("../Data/userData.json", function(text) {
     userData = JSON.parse(text);
 });
 
