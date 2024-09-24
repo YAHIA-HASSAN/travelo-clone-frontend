@@ -11,7 +11,7 @@
             "rating": 5,
             "amenities": ["Free WiFi", "Spa", "Breakfast included"]
         },
-        "photoURL": "./img/paris.jpg"
+        "photoURL": "../img/paris.jpg"
     },
     {
         "id": 2,
@@ -25,7 +25,7 @@
             "rating": 4,
             "amenities": ["Free WiFi", "City View", "24-hour Gym"]
         },
-        "photoURL": "./img/Tokyo.jpg"
+        "photoURL": "../img/Tokyo.jpg"
     },
     {
         "id": 3,
@@ -39,7 +39,7 @@
             "rating": 4,
             "amenities": ["Pool", "Harbour View", "Bar"]
         },
-        "photoURL": "./img/Sydney.jpg"
+        "photoURL": "../img/Sydney.jpg"
     },
     {
         "id": 4,
@@ -53,7 +53,7 @@
             "rating": 5,
             "amenities": ["Rooftop Bar", "Free Breakfast", "Gym"]
         },
-        "photoURL": "./img/New_York_City.jpg"
+        "photoURL": "../img/New_York_City.jpg"
     },
     {
         "id": 5,
@@ -67,7 +67,7 @@
             "rating": 3,
             "amenities": ["Free Parking", "Pyramids View", "Guided Tours"]
         },
-        "photoURL": "./img/Cairo.jpg"
+        "photoURL": "../img/Cairo.jpg"
     },
     {
         "id": 6,
@@ -81,7 +81,7 @@
             "rating": 5,
             "amenities": ["Free WiFi", "Ocean View", "Airport Shuttle"]
         },
-        "photoURL": "./img/Cape_Town.jpg"
+        "photoURL": "../img/Cape_Town.jpg"
     },
     {
         "id": 7,
@@ -95,7 +95,7 @@
             "rating": 4,
             "amenities": ["Free Breakfast", "Central Location", "Spa"]
         },
-        "photoURL": "./img/Rome.jpg"
+        "photoURL": "../img/Rome.jpg"
     },
     {
         "id": 8,
@@ -109,7 +109,7 @@
             "rating": 5,
             "amenities": ["Free WiFi", "Rooftop Pool", "Gym"]
         },
-        "photoURL": "./img/London.jpg"
+        "photoURL": "../img/London.jpg"
     },
     {
         "id": 9,
@@ -123,7 +123,7 @@
             "rating": 4,
             "amenities": ["Free WiFi", "Pool", "Close to Shopping"]
         },
-        "photoURL": "./img/Bangkok.jpg"
+        "photoURL": "../img/Bangkok.jpg"
     },
     {
         "id": 10,
@@ -137,6 +137,6 @@
             "rating": 5,
             "amenities": ["Beach Access", "Free Breakfast", "Spa"]
         },
-        "photoURL": "./img/Rio_de_Janeiro.jpg"
+        "photoURL": "../img/Rio_de_Janeiro.jpg"
     }
 ]
