@@ -111,18 +111,23 @@ nav a:hover {
 
 .toggle{
     display: none;
+    height: 100%;
+}
+.toggle i{
     font-size: larger;
     height: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 #toggled-menu{
     display: none;
     justify-content: center;
     align-items: center;
     background: #4c4c4c;
     width: 50%;
-    height: 35%;
+    height: fit-content;
     position: fixed;
     top: 10vh;
     left: 50%;
@@ -133,12 +138,13 @@ nav a:hover {
 }
 .toggled-menu-list{
     width: 80%;
-    height: 80%;
+    min-height: 60vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
-   
     z-index: 10000;
     list-style: none;
+    
 }
 .toggled-menu-item{
     width: 90%;
@@ -167,8 +173,11 @@ nav a:hover {
     .toggle{
         width: 20%;
         display:flex;
-        padding: 3%;
         background: #4c4c4c;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .nav-part2{
         display: none;

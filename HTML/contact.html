@@ -2,16 +2,97 @@
 <head>
     <title>Contact Form</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <!-- Main style -->
-    <link rel="stylesheet" href="../CSS/Contact.css">
+    
 
     <!-- Other styles -->
     <link rel="stylesheet" href="../CSS/PhotoStyle.css">
     <link rel="stylesheet" href="../CSS/search.css">
     <link rel="stylesheet" href="../CSS/searchResult.css">
 
+    <!-- Required links for Nav Style -->
+    <link rel="stylesheet" href="../CSS/navStyle.css">
+    <link rel="icon" type="fevion/icon" href="../img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Main style -->
+    <link rel="stylesheet" href="../CSS/Contact.css">
+    
 </head>
 <body>
+     <!-- Header with nav bar done  -->
+     <header>
+        <nav>
+            <div class="nav-part1">
+                <img src="../img/logo.png" alt="logo" />
+            </div>
+
+
+            <div class="nav-part2">
+                <ul id="nav-list">
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="destination.html">Destination</a>
+                    </li>
+                    <li>
+                        <a href="feedback.html">Feedback</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-phone-number">
+                    <i class="fa-solid fa-phone"></i>
+                    <span> 10(256)-928 256</span>
+                </div>
+            </div>
+
+            <div class="nav-part3" id="nav-part3">
+                <div class="nav-red-button">
+                    <a href="./home.html#search-section"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div class="nav-red-button">
+                    <a href="login.html">Login</a>
+                </div>
+
+            </div>
+
+            <div class="toggle" onclick="displayToggledMenu()">
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+        </nav>
+        
+        <div id="toggled-menu">
+            <ul class="toggled-menu-list">
+                <li class="toggled-menu-item">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="destination.html">Destination</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="feedback.html">Feedback</a>
+                </li>
+                <li class="toggled-menu-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="toggled-menu-item" id="toggled-menu-item-login">
+                    <a href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
     <div class="container">
         <div class="form-container">
             <h2>Get in Touch</h2>
@@ -40,5 +121,8 @@
             </div>
         </div>
     </div>
+</main>
 </body>
+<!-- Nav Script -->
+<script src="../JS/navScript.js"></script>
 </html>
