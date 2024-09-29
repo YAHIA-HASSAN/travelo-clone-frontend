@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/feedbackStyle.css" />
+    <link rel="stylesheet" href="../CSS/destinationStyle.css" />
+     <!-- Required links for Nav Style -->
+     <link rel="stylesheet" href="../CSS/navStyle.css">
+     <link rel="icon" type="fevion/icon" href="../img/logo.png">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+  </head>
+  <body>
+
+
+ <!-- Header with nav bar done  -->
+ <header>
+  <nav>
+      <div class="nav-part1">
+          <img src="../img/logo.png" alt="logo" />
+      </div>
+
+
+      <div class="nav-part2">
+          <ul id="nav-list">
+              <li>
+                  <a href="home.html">Home</a>
+              </li>
+              <li>
+                  <a href="about.html">About</a>
+              </li>
+              <li>
+                  <a href="destination.html">Destination</a>
+              </li>
+              <li>
+                  <a href="feedback.html">Feedback</a>
+              </li>
+              <li>
+                  <a href="contact.html">Contact</a>
+              </li>
+          </ul>
+          <div class="nav-phone-number">
+              <i class="fa-solid fa-phone"></i>
+              <span> 10(256)-928 256</span>
+          </div>
+      </div>
+
+      <div class="nav-part3" id="nav-part3">
+          <div class="nav-red-button">
+              <a href="./home.html#search-section"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </div>
+          <div class="nav-red-button">
+              <a href="login.html">Login</a>
+          </div>
+
+      </div>
+
+      <div class="toggle" onclick="displayToggledMenu()">
+          <i class="fa-solid fa-bars"></i>
+
+      </div>
+  </nav>
+  
+  <div id="toggled-menu">
+      <ul class="toggled-menu-list">
+          <li class="toggled-menu-item">
+              <a href="home.html">Home</a>
+          </li>
+          <li class="toggled-menu-item">
+              <a href="about.html">About</a>
+          </li>
+          <li class="toggled-menu-item">
+              <a href="destination.html">Destination</a>
+          </li>
+          <li class="toggled-menu-item">
+              <a href="feedback.html">Feedback</a>
+          </li>
+          <li class="toggled-menu-item">
+              <a href="contact.html">Contact</a>
+          </li>
+          <li class="toggled-menu-item" id="toggled-menu-item-login">
+              <a href="login.html">Login</a>
+          </li>
+      </ul>
+  </div>
+</header>
+
+<main>
+
+    <div class="container">
+      <h1>Feedback Form</h1>
+      <form id="feedbackForm">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>How would you rate our services?</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="radio"
+              id="excellent"
+              name="feedback"
+              value="Excellent"
+              required
+            />
+            <label for="excellent">Excellent</label><br />
+            <input
+              type="radio"
+              id="verygood"
+              name="feedback"
+              value="Very Good"
+            />
+            <label for="verygood">Very Good</label><br />
+            <input type="radio" id="good" name="feedback" value="Good" />
+            <label for="good">Good</label><br />
+            <input type="radio" id="average" name="feedback" value="Average" />
+            <label for="average">Average</label><br />
+            <input type="radio" id="poor" name="feedback" value="Poor" />
+            <label for="poor">Poor</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject"
+              >Do you have any suggestions to improve our services?</label
+            >
+          </div>
+          <div class="col-75">
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+
+    <div id="thankYouMessage"></div>
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="all-element">
+      <!-- First Element: Logo and Contact Information (35% Width) -->
+      <div class="logo-and-icons">
+        <a href="#"><img src="../img/footer_logo.png.webp" alt="footer_logo" /></a>
+        <div class="component-padding-top">
+          <p>
+            5th flora, 700/D kings road, green <br />
+            lane New York-1782 <br />
+            <a href="#">01117522817</a> <br />
+            <a href="#">contact@m.com</a>
+          </p>
+          <ul class="social-icons">
+            <li>
+              <a href="#"
+                ><img src="../img/facebookIcon.webp" alt="facebook_logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"><img src="../img/XIcon.webp" alt="x_logo" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="../img/instaIcon.webp" alt="insta_logo" /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../img/PinterestIcon.webp" alt="pintrest_logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../img/YoutubeIcon.webp" alt="youtube_logo"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Second Element: Company Section (Fixed 155px Width) -->
+      <div class="companies">
+        <h3>Company</h3>
+        <div class="component-padding-top">
+          <ul>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Third Element: Popular Destination (25% Width) -->
+      <div class="Popular-destination">
+        <h3>Popular Destination</h3>
+        <div class="component-padding-top">
+          <ul>
+            <li><a href="#">Indonesia</a></li>
+            <li><a href="#">America</a></li>
+            <li><a href="#">India</a></li>
+            <li><a href="#">Switzerland</a></li>
+            <li><a href="#">Italy</a></li>
+            <li><a href="#">Canada</a></li>
+            <li><a href="#">France</a></li>
+            <li><a href="#">England</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Fourth Element: Instagram Section (25% Width) -->
+      <div class="insta">
+        <h3>Instagram</h3>
+        <div class="component-padding-top">
+          <div class="insta-images">
+            <a href="#"><img src="../img/insta1.webp" alt="Instagram 1" /></a>
+            <a href="#"><img src="../img/insta2.webp" alt="Instagram 2" /></a>
+            <a href="#"><img src="../img/insta3.webp" alt="Instagram 3" /></a>
+            <a href="#"><img src="../img/insta4.webp" alt="Instagram 4" /></a>
+            <a href="#"><img src="../img/insta5.webp" alt="Instagram 5" /></a>
+            <a href="#"><img src="../img/insta6.webp" alt="Instagram 6" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copy-right_text">
+      <div>
+        <div></div>
+        <div>
+          <div class="copy-right">
+            <p>
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              All rights reserved | This made by
+              <a href="#" target="_blank" class="team1">Team1</a>
+            </p>../img/
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  </body>
+  <script src="../JS/main.js"></script>
+  <!-- Nav Script -->
+<script src="../JS/navScript.js"></script>
+</html>

@@ -10,7 +10,7 @@
 }
 
 .ticket-left-part{
-    height: 30vh;
+    height: 100%;
     width: 50vw;
     text-align: start;
     display: flex;
@@ -21,7 +21,7 @@
 
 }
 .ticket-right-part{
-    height: 30vh;
+    height: 100%;
     width: 20vw;
     background: rgba(255, 255, 0, 0.426);
     padding: 1%;

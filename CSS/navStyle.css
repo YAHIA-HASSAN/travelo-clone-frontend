@@ -6,8 +6,9 @@ header{
     top: 0px;
     background: #fff;
     min-height: 70px;
+    /* max-height: 150px; */
     min-width: 500px;
-    height: 10%;
+    height: 10% !important;
     width:100%;
     display: flex;
     justify-content: center;
